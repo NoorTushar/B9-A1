@@ -23,6 +23,7 @@ header {
   color: #fff;
   font-size: 32px;
   margin-bottom: 16px;
+  font-family: "Merriweather", serif;
 }
 .banner .banner-title .banner-heading {
   color: #fff;
@@ -34,20 +35,26 @@ header {
 /* banner section end */
 
 /* announcement section start */
-.announcement {
+.announcement-section {
   padding: 120px 0;
 }
-.announcement-container {
-  text-align: center;
+.announcement-section .announcement {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.announcement-container #announcementHeader {
+.announcement-contents {
+  text-align: center;
+  max-width: 803px;
+}
+.announcement-contents #announcementHeader {
   color: #f00;
   text-align: center;
   font-family: Inter;
   font-size: 88px;
   font-weight: 700;
 }
-.announcement-container .announcement-detail {
+.announcement-contents .announcement-detail {
   color: #f00;
   font-size: 24px;
   font-weight: 500;
@@ -55,10 +62,65 @@ header {
   margin-bottom: 16px;
 }
 
-.announcement-container .category {
+.announcement-contents .category {
   color: #070211;
   font-size: 48px;
   font-weight: 700;
   font-family: Inter;
   margin-bottom: 48px;
+}
+.party-section {
+  margin-bottom: 120px;
+}
+.party {
+  height: 600px;
+  background-image: url("../images/Vectorrr.png");
+  border-radius: 16px;
+  background-color: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  background-blend-mode: overlay;
+  display: flex;
+  align-items: center;
+}
+.party-contents {
+  margin-left: 120px;
+  max-width: 700px;
+}
+.party-header {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+}
+
+.party-description {
+  margin: 24px 0;
+  color: rgba(255, 255, 255, 0.8);
+
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* Time Section */
+.time-section {
+}
+.time-section .time {
+  background-color: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.place {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.place span {
+  color: #f00;
+}
+
+.time-section .primary-btn {
+  margin-top: 25px;
 }
