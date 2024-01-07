@@ -80,6 +80,7 @@ header {
   background-blend-mode: overlay;
   display: flex;
   align-items: center;
+  gap: 50px;
 }
 .party-contents {
   margin-left: 120px;
@@ -99,7 +100,9 @@ header {
   font-size: 18px;
   line-height: 30px;
 }
-
+.party-img {
+  max-width: 320px;
+}
 /* Time Section */
 .time-section {
 }
