@@ -7,7 +7,7 @@ header {
 
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Banner\ Image.png");
-
+  background-repeat: no-repeat;
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -75,11 +75,12 @@ header {
 
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
   border-radius: 16px;
 
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 40px;
 }
 .party-contents {
   margin-left: 120px;
@@ -169,11 +170,16 @@ header {
 
 .mid-col {
   max-width: 463px;
+  height: 100%;
+
+  border: 10px solid red;
+  border-radius: 100%;
+  padding: 38px;
 }
 .mid-col-img {
-  position: relative;
+  /* position: relative; */
 }
-.dummy-div {
+/* .dummy-div {
   position: absolute;
   border: 10px solid #f00;
   border-radius: 50%;
@@ -185,16 +191,12 @@ header {
   left: 0;
   height: 463px;
   width: 463px;
-}
+} */
 
 .mid-col-img img {
 }
 
 .right-col {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
   max-width: 276px;
 }
 .right-col-heading {
@@ -214,4 +216,74 @@ header {
 
 .right-col-img {
   max-width: 140px;
+}
+
+/* Holiday Section */
+
+.holiday-sale-title {
+  text-align: center;
+  max-width: 1068px;
+}
+.holiday-sale-subheading {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-sale-heading {
+  margin-top: 16px;
+  margin-bottom: 28px;
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-sale-heading span {
+  color: #f00;
+}
+.holiday-description {
+  margin-bottom: 64px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+.holiday-sale-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.hol-banner-img-box {
+  max-width: 430px;
+  position: relative;
+  display: flex;
+  align-items: end;
+}
+.hol-banner-img-box img {
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+}
+
+.hol-banner-img-box #fifty-percent {
+  /*max-width: 206px;
+  */
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  max-width: 206px;
+  transform: translate(50%, -50%) rotate(-1deg);
+}
+.red-box-container {
+  position: relative;
+}
+#red-box {
+  width: 100%;
+}
+
+#exploding-box {
+  position: absolute;
+  top: -150%;
+  left: 42px;
+  width: 50%;
 }
