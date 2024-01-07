@@ -145,7 +145,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
 }
 .left-col {
   max-width: 400px;
@@ -323,6 +322,7 @@ header {
   gap: 20px;
 }
 .portfolio-item {
+  width: 32%;
   overflow: hidden;
   border-radius: 16px;
   -webkit-border-radius: 16px;
@@ -347,3 +347,26 @@ header {
   -ms-transform: scale(1.5);
   -o-transform: scale(1.5);
 }
+
+/* Portfolio Section End */
+
+/* Subscribe Section Start */
+
+.subscribe-section {
+  margin-bottom: 120px;
+}
+.subscribe-section .sub-section {
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 616px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Subscribe Section End */
