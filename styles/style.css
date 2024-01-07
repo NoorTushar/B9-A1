@@ -364,9 +364,42 @@ header {
   justify-content: center;
 }
 .subscribe-wrapper {
+  width: 896px;
   text-align: center;
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
-
+.subscribe-image {
+  max-width: 150px;
+}
+subscribe-section form {
+  width: 650px;
+}
+form .input-field {
+  width: 100%;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+}
+form .input-field input {
+  width: 500px;
+  padding: 22px 40px 22px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  border-radius: 50px 0 0 50px;
+  -webkit-border-radius: 50px 0 0 50px;
+  -moz-border-radius: 50px 0 0 50px;
+  -ms-border-radius: 50px 0 0 50px;
+  -o-border-radius: 50px 0 0 50px;
+}
+form .input-field button {
+  /* position: absolute; */
+  right: 0;
+  top: 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  width: 30%;
+}
 /* Subscribe Section End */

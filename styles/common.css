@@ -81,8 +81,17 @@ h3 {
 }
 
 .common-heading {
+  margin-top: 16px;
+  margin-bottom: 22px;
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
   font-weight: 900;
+}
+
+.common-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 48px;
 }
