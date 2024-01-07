@@ -4,13 +4,11 @@ header {
 /* banner section end */
 .banner {
   height: 600px;
-  background-image: url("../images/Banner\ Image.png");
+
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Banner\ Image.png");
+
   border-radius: 16px;
-  background-color: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  /* background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat; */
-  background-blend-mode: overlay;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,10 +72,11 @@ header {
 }
 .party {
   height: 600px;
-  background-image: url("../images/Vectorrr.png");
+
+  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../images/Vectorrr.png");
   border-radius: 16px;
-  background-color: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  background-blend-mode: overlay;
+
   display: flex;
   align-items: center;
   gap: 50px;
