@@ -104,11 +104,16 @@ header {
 .time-section {
 }
 .time-section .time {
-  background-color: linear-gradient(
-    180deg,
-    rgba(255, 0, 0, 0.1) 0%,
-    rgba(255, 0, 0, 0) 100%
-  );
+  background: linear-gradient(180deg, #ffe6e5 0%, #fff 100%);
+  height: 482px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
 
 .place {
@@ -120,7 +125,36 @@ header {
 .place span {
   color: #f00;
 }
-
+.time-btn {
+  text-align: center;
+}
 .time-section .primary-btn {
   margin-top: 25px;
+}
+
+/* coming-soon-section */
+
+.coming-soon-section {
+  padding: 120px 0;
+}
+.coming-soon-container {
+  display: flex;
+}
+.left-col {
+  max-width: 400px;
+}
+.left-col-subheading {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+.left-col-heading {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+.left-col-description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  line-height: 32px; /* 160% */
 }
