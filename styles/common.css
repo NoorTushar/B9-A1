@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap");
+/* font-family: 'Inter', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+body h1,
+h2,
+h3 {
+  font-family: Merriweather;
+}
+.container {
+  width: 82.5%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.primary-text {
+  color: #f00;
+}
+
+.primary-background {
+  background-color: #f00;
+}
