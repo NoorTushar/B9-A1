@@ -138,7 +138,11 @@ header {
   padding: 120px 0;
 }
 .coming-soon-container {
+  height: 463px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
 }
 .left-col {
   max-width: 400px;
@@ -149,6 +153,8 @@ header {
   font-weight: 500;
 }
 .left-col-heading {
+  margin-top: 16px;
+  margin-bottom: 22px;
   color: #070211;
   font-size: 48px;
   font-weight: 900;
@@ -157,4 +163,53 @@ header {
   color: rgba(7, 2, 17, 0.6);
   font-size: 20px;
   line-height: 32px; /* 160% */
+}
+
+.mid-col {
+  max-width: 463px;
+}
+.mid-col-img {
+  position: relative;
+}
+.dummy-div {
+  position: absolute;
+  border: 10px solid #f00;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: 0;
+  left: 0;
+  height: 463px;
+  width: 463px;
+}
+
+.mid-col-img img {
+}
+
+.right-col {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  max-width: 276px;
+}
+.right-col-heading {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.right-col-description {
+  margin-top: 16px;
+  margin-bottom: 43px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.right-col-img {
+  max-width: 140px;
 }
