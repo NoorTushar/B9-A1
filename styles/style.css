@@ -403,3 +403,64 @@ form .input-field button {
   width: 30%;
 }
 /* Subscribe Section End */
+
+footer {
+  background-color: #070211;
+}
+footer .container {
+  height: 610px;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+.footer-wrapper {
+  width: 100%;
+}
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-contact address {
+  max-width: 375px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 40px;
+}
+.footer-contact .f-contact {
+  width: 250px;
+}
+.f-contact div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.f-contact img {
+  max-width: 24px;
+  height: 24px;
+}
+footer p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+footer hr {
+  margin: 50px 0;
+}
+.social-icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-item {
+  width: 64px;
+}
+
+footer .copyright {
+  display: flex;
+  justify-content: space-between;
+}
