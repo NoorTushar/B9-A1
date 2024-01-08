@@ -207,28 +207,29 @@ header {
 /* Holiday Section */
 
 .holiday-sale-title {
+  margin: 0 auto;
   text-align: center;
-  max-width: 1068px;
+  max-width: 916.2px;
 }
 .holiday-sale-subheading {
   color: #070211;
-  font-size: 24px;
+  font-size: 21.6px;
   font-weight: 500;
 }
 .holiday-sale-heading {
-  margin-top: 16px;
-  margin-bottom: 28px;
+  margin-top: 14.4px;
+  margin-bottom: 25.2px;
   color: #070211;
-  font-size: 72px;
+  font-size: 64.8px;
   font-weight: 900;
 }
 .holiday-sale-heading span {
   color: #f00;
 }
 .holiday-description {
-  margin-bottom: 64px;
+  margin-bottom: 57.6px;
   color: rgba(7, 2, 17, 0.6);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 28.8px; /* 160% */
 }
@@ -238,17 +239,17 @@ header {
   align-items: end;
 }
 .hol-banner-img-box {
-  max-width: 430px;
+  max-width: 387px;
   position: relative;
   display: flex;
   align-items: end;
 }
 .hol-banner-img-box img {
-  border-radius: 10px 10px 0 0;
-  -webkit-border-radius: 10px 10px 0 0;
-  -moz-border-radius: 10px 10px 0 0;
-  -ms-border-radius: 10px 10px 0 0;
-  -o-border-radius: 10px 10px 0 0;
+  border-radius: 9px 9px 0 0;
+  -webkit-border-radius: 9px 9px 0 0;
+  -moz-border-radius: 9px 9px 0 0;
+  -ms-border-radius: 9px 9px 0 0;
+  -o-border-radius: 9px 9px 0 0;
 }
 
 .hol-banner-img-box #fifty-percent {
@@ -257,7 +258,7 @@ header {
   position: absolute;
   top: 50%;
   left: -50%;
-  max-width: 206px;
+  max-width: 185.4px;
   transform: translate(50%, -50%) rotate(-1deg);
 }
 .red-box-container {
@@ -269,14 +270,14 @@ header {
 
 #exploding-box {
   position: absolute;
-  top: -150%;
-  left: 42px;
+  top: -153%;
+  left: 60px;
   width: 50%;
 }
 
 /* portfolio section */
 .portfolio-section {
-  padding: 120px 0;
+  padding: 108px 0;
 }
 .portfolio-title {
   max-width: 896px;
@@ -284,13 +285,13 @@ header {
 .portfolio-subheading {
   color: #f00;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 21.6px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 .portfolio-heading {
-  margin-top: 16px;
+  margin-top: 14.4px;
   margin-bottom: 22px;
   color: #070211;
   font-size: 48px;
@@ -311,11 +312,11 @@ header {
 .portfolio-item {
   width: 32%;
   overflow: hidden;
-  border-radius: 16px;
-  -webkit-border-radius: 16px;
-  -moz-border-radius: 16px;
-  -ms-border-radius: 16px;
-  -o-border-radius: 16px;
+  border-radius: 14.4px;
+  -webkit-border-radius: 14.4px;
+  -moz-border-radius: 14.4px;
+  -ms-border-radius: 14.4px;
+  -o-border-radius: 14.4px;
 }
 .portfolio-item img {
   cursor: pointer;
@@ -340,10 +341,10 @@ header {
 /* Subscribe Section Start */
 
 .subscribe-section {
-  margin-bottom: 120px;
+  margin-bottom: 108px;
 }
 .subscribe-section .sub-section {
-  border-radius: 16px;
+  border-radius: 14.4px;
   background: rgba(255, 0, 0, 0.05);
   height: 616px;
   display: flex;
@@ -411,7 +412,7 @@ footer .container {
 .footer-contact address {
   max-width: 375px;
   color: #fff;
-  font-size: 24px;
+  font-size: 21.6px;
   font-weight: 500;
   font-style: normal;
   line-height: 40px;
@@ -423,15 +424,15 @@ footer .container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 16px;
+  gap: 14.4px;
 }
 .f-contact img {
-  max-width: 24px;
-  height: 24px;
+  max-width: 21.6px;
+  height: 21.6px;
 }
 footer p {
   color: #fff;
-  font-size: 24px;
+  font-size: 21.6px;
   font-weight: 500;
   line-height: 40px;
 }
@@ -441,10 +442,10 @@ footer hr {
 .social-icon-container {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 21.6px;
 }
 .social-item {
-  width: 64px;
+  width: 57.6px;
 }
 
 footer .copyright {
