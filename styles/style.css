@@ -1,14 +1,15 @@
 header {
-  padding-top: 50px;
+  padding-top: 45px;
 }
 /* banner section end */
 .banner {
-  height: 600px;
-
+  height: 540px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Banner\ Image.png");
   background-repeat: no-repeat;
+  background-position: center;
   border-radius: 16px;
+  background-size: contain;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,16 +17,17 @@ header {
 .banner .banner-title {
   text-align: center;
   max-width: 632px;
+  max-width: 569px;
 }
 .banner .banner-title .banner-subheading {
   color: #fff;
-  font-size: 32px;
-  margin-bottom: 16px;
+  font-size: 29px;
+  margin-bottom: 14.4px;
   font-family: "Merriweather", serif;
 }
 .banner .banner-title .banner-heading {
   color: #fff;
-  font-size: 72px;
+  font-size: 65px;
   font-weight: 900;
   line-height: 95px; /* 131.944% */
   max-width: ;
@@ -34,7 +36,7 @@ header {
 
 /* announcement section start */
 .announcement-section {
-  padding: 120px 0;
+  padding: 108px 0;
 }
 .announcement-section .announcement {
   display: flex;
@@ -43,29 +45,29 @@ header {
 }
 .announcement-contents {
   text-align: center;
-  max-width: 803px;
+  max-width: 722.6px;
 }
 .announcement-contents #announcementHeader {
   color: #f00;
   text-align: center;
   font-family: Inter;
-  font-size: 88px;
+  font-size: 71px;
   font-weight: 700;
 }
 .announcement-contents .announcement-detail {
   color: #f00;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
-  margin-top: 24px;
-  margin-bottom: 16px;
+  margin-top: 21.6px;
+  margin-bottom: 14.4px;
 }
 
 .announcement-contents .category {
   color: #070211;
-  font-size: 48px;
+  font-size: 38.7px;
   font-weight: 700;
   font-family: Inter;
-  margin-bottom: 48px;
+  margin-bottom: 43.2px;
 }
 .party-section {
   margin-bottom: 120px;
