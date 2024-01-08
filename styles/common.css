@@ -55,13 +55,13 @@ h3 {
 }
 
 .primary-btn {
-  padding: 16px 32px;
+  padding: 14.4px 28.8px;
   border: 1px solid #f00;
   border-radius: 8px;
   background: #f00;
   color: #fff;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;

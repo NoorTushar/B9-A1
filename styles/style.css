@@ -8,7 +8,7 @@ header {
     url("../images/Banner\ Image.png");
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 16px;
+  border-radius: 14.4px;
   background-size: contain;
   display: flex;
   align-items: center;
@@ -70,40 +70,39 @@ header {
   margin-bottom: 43.2px;
 }
 .party-section {
-  margin-bottom: 120px;
+  margin-bottom: 108px;
 }
 .party {
-  height: 600px;
-
+  height: 540px;
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../images/Vectorrr.png");
   background-repeat: no-repeat;
-  border-radius: 16px;
-
+  background-position: center;
+  border-radius: 14.4px;
+  background-size: contain;
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 35.2px;
 }
 .party-contents {
-  margin-left: 120px;
-  max-width: 700px;
+  margin-left: 113.4px;
+  max-width: 630px;
 }
 .party-header {
   color: #fff;
-  font-size: 64px;
+  font-size: 57.6px;
   font-weight: 900;
-  letter-spacing: 7.04px;
+  letter-spacing: 6.336px;
 }
 
 .party-description {
-  margin: 24px 0;
+  margin: 21.6px 0;
   color: rgba(255, 255, 255, 0.8);
-
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 16.2px;
+  line-height: 27px;
 }
 .party-img {
-  max-width: 320px;
+  max-width: 288px;
 }
 /* Time Section */
 .time-section {
