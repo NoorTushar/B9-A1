@@ -280,7 +280,7 @@ header {
   padding: 108px 0;
 }
 .portfolio-title {
-  max-width: 896px;
+  max-width: 806.4px;
 }
 .portfolio-subheading {
   color: #f00;
@@ -292,22 +292,23 @@ header {
 }
 .portfolio-heading {
   margin-top: 14.4px;
-  margin-bottom: 22px;
+  margin-bottom: 19.8px;
   color: #070211;
-  font-size: 48px;
+  font-size: 43.2px;
   font-weight: 900;
 }
 .portfolio-description {
-  margin-bottom: 48px;
+  margin-bottom: 43.2px;
   color: rgba(7, 2, 17, 0.6);
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28.8px; /* 160% */
 }
 .portfolios-container {
   display: flex;
   /* flex-basis: 33%; */
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 18px;
 }
 .portfolio-item {
   width: 32%;
@@ -346,23 +347,23 @@ header {
 .subscribe-section .sub-section {
   border-radius: 14.4px;
   background: rgba(255, 0, 0, 0.05);
-  height: 616px;
+  height: 554.4px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .subscribe-wrapper {
-  width: 896px;
+  width: 806.4px;
   text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 .subscribe-image {
-  max-width: 150px;
+  max-width: 135px;
 }
 subscribe-section form {
-  width: 650px;
+  width: 585px;
 }
 form .input-field {
   width: 100%;
@@ -371,7 +372,7 @@ form .input-field {
   align-items: center;
 }
 form .input-field input {
-  width: 500px;
+  width: 450px;
   padding: 22px 40px 22px;
   border: none;
   outline: none;
@@ -396,7 +397,7 @@ footer {
   background-color: #070211;
 }
 footer .container {
-  height: 610px;
+  height: 549px;
   display: flex;
   justify-content: center;
 
@@ -410,15 +411,15 @@ footer .container {
   justify-content: space-between;
 }
 .footer-contact address {
-  max-width: 375px;
+  max-width: 337.5px;
   color: #fff;
   font-size: 21.6px;
   font-weight: 500;
   font-style: normal;
-  line-height: 40px;
+  line-height: 36px;
 }
 .footer-contact .f-contact {
-  width: 250px;
+  width: 225px;
 }
 .f-contact div {
   display: flex;
@@ -434,10 +435,10 @@ footer p {
   color: #fff;
   font-size: 21.6px;
   font-weight: 500;
-  line-height: 40px;
+  line-height: 36px;
 }
 footer hr {
-  margin: 50px 0;
+  margin: 45px 0;
 }
 .social-icon-container {
   display: flex;
