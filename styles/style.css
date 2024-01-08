@@ -112,9 +112,6 @@ header {
   max-width: 288px;
 }
 
-.time-section {
-}
-
 .time-details {
   text-align: center;
 }
@@ -188,12 +185,6 @@ header {
   border: 15px solid rgb(255, 0, 0);
   border-radius: 100%;
   padding: 27.2px;
-}
-
-.mid-col-img {
-}
-
-.mid-col-img img {
 }
 
 .right-col {
