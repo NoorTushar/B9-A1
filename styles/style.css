@@ -373,7 +373,7 @@ form .input-field {
 }
 form .input-field input {
   width: 450px;
-  padding: 22px 40px 22px;
+  padding: 16px 40px;
   border: none;
   outline: none;
   font-size: 18px;
